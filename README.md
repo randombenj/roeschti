@@ -1,4 +1,4 @@
-# rost SOON
+# rost in Schwizerdütsch
 ![](https://github.com/Georg-code/rost_ch/raw/hauptast/logo.png)
 
 Aren't you _müed_ from writing Rust programs in English? Do you like saying
