@@ -1,10 +1,10 @@
-name: Rouille
+name: Rost
 
 on:
   push:
-    branches: [ principale ]
+    branches: [hauptast ]
   pull_request:
-    branches: [ principale ]
+    branches: [ hauptast ]
 
 jobs:
   ic:
