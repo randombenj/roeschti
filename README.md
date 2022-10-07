@@ -1,4 +1,4 @@
-# rost in Schwizerdütsch
+# rust uf Schwizerdütsch
 ![](https://github.com/Georg-code/rost_ch/raw/hauptast/logo.png)
 
 Aren't you _müed_ from writing Rust programs in English? Do you like saying
@@ -6,7 +6,7 @@ Aren't you _müed_ from writing Rust programs in English? Do you like saying
 funny-sounding language? Would you want to bring some Schwizerdütsch touch to your
 programs?
 
-**rost** (Schwizerdütsch/dütsch for _Rust_) is here to save your day, as it allows you to
+**roscht** (Schwizerdütsch/dütsch for _Rust_) is here to save your day, as it allows you to
 write Rust programs in Swissgerman, using Swissgerman keywords, Swissgerman function names,
 Swissgerman idioms.
 
@@ -21,7 +21,7 @@ If you want to pay someone for this, pay the french guy. I only adapted his work
 ### chlises bispil
 
 ```rust
-rost::rost! {
+roscht::roscht! {
     bruch std::collections::Dictionär als Dico;
 
     eigeschaft schlüsselwärt {
