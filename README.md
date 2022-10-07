@@ -10,17 +10,15 @@ programs?
 write Rust programs in Swissgerman, using Swissgerman keywords, Swissgerman function names,
 Swissgerman idioms.
 
-This has been designed to be used as the official programming language to
-develop the software for Ueli Murer
+This has been designed to be used as the official programming language for every `bünzli`
 
-If you want to pay someone for this, pay the french guy. I only adapted his work. He does some nice shit. Worth a look.
-[liberapay](https://liberapay.com/bnjbvr/).
+If you want to pay someone for this, pay the french guy. I only adapted his work. He does some nice shit. Worth a look. If you still want to support me just star this repo that will make me happy.
+[His Repo](https://github.com/bnjbvr/rouille) \
+[His liberapay](https://liberapay.com/bnjbvr/).
 
 
 
-**Examples sill in french will be translated soon**
-
-### trait and impl (aka convention et réalisation)
+### chlises bispil
 
 ```rust
 rost::rost! {
@@ -53,14 +51,14 @@ rost::rost! {
 }
 ```
 
-## les contributions
+## Mitmache
 
 First of all, _merci_ for considering participating to this joke, the
 Swiss government and Rodger Federer will thank you later! Feel free to throw in a few identifiers
-here and there, and open a pull-request against the `hauptast` (French for
-`main`) branch.
+here and there, and open a pull-request against the `hauptast` (Swissgerman for
+`mainbranch`).
 
-Please don't introduce swear words, though: we will not excuse your French.
+Please don't introduce swear words.
 
 ## but why would you do zat
 
@@ -98,6 +96,6 @@ Please don't introduce swear words, though: we will not excuse your French.
 - Greek: [skouriasmeno](https://github.com/devlocalhost/skouriasmeno)
 
 
-## la license
+## d'Lizenz
 
 [Öffentlichi Lizenz, wenn da druf drucks chaschs au nomal uf französisch lese](http://sam.zoy.org/lprab/),
