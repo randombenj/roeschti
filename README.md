@@ -23,30 +23,30 @@ If you want to pay someone for this, pay the french guy. I only adapted his work
 ### trait and impl (aka convention et réalisation)
 
 ```rust
-rouille::rouille! {
-    utilisons std::collections::Dictionnaire comme Dico;
+rost::rost! {
+    bruch std::collections::Dictionär als Dico;
 
-    convention CléValeur {
-        fonction écrire(&soi, clé: Chaine, valeur: Chaine);
-        fonction lire(&soi, clé: Chaine) -> PeutÊtre<&Chaine>;
+    eigeschaft schlüsselwärt {
+        funktion schrib(&selber, schlüssel: Zeichecheti, wärt: Zeichecheti);
+        funktion lis(&selber, schlüssel: Zeichecheti) -> Vilicht<&Zeichecheti>;
     }
 
-    statique mutable DICTIONNAIRE: PeutÊtre<Dico<Chaine, Chaine>> = Rien;
+    statisch veränderbar DICTIONNAIRE: <Dico<Zeichecheti, Zeichecheti>> = Nüt;
 
-    structure Concrète;
+    struktur Konkret;
 
-    réalisation CléValeur pour Concrète {
-        fonction écrire(&soi, clé: Chaine, valeur: Chaine) {
-            soit dico = dangereux {
-                DICTIONNAIRE.prendre_ou_insérer_avec(Défaut::défaut)
+    implementiere schlüsselwärt für Konkret {
+        funktion schrib(&selber, schlüssel: Zeichecheti, wärt: Zeichecheti) {
+            lahn dico = unsicher {
+                DICTIONÄR.hole_oder_ifüege_mit(Standart::standart)
             };
-            dico.insérer(clé, valeur);
+            dico.infüege(schlüssel, wärt);
         }
-        fonction lire(&soi, clé: Chaine) -> Résultat<PeutÊtre<&Chaine>, Chaine> {
-            si soit Quelque(dico) = dangereux { DICTIONNAIRE.en_réf() } {
-                Bien(dico.lire(&clé))
-            } sinon {
-                Arf("fetchez le dico".vers())
+        funktion lis(&selber, schlüssel: Zeichecheti) -> Resultat<Vilicht<&Zeichecheti>, Zeichecheti> {
+            falls lahn Espaar(dico) = unsicher { DICTIONNAIRE.as_referenz() } {
+                Oke(dico.lis(&schlüssel))
+            } susch {
+                Fähl("Usem dico usehole".in())
             }
         }
     }
