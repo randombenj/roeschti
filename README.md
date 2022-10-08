@@ -21,7 +21,7 @@ If you want to pay someone for this, pay the french guy. I only adapted his work
 ### chlises bispil
 
 ```rust
-roscht::roscht! {
+roeschti::roeschti! {
     bruch std::collections::Dictionär als Dico;
 
     eigeschaft schlüsselwärt {
