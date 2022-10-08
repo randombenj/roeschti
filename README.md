@@ -29,7 +29,7 @@ roeschti::roeschti! {
         funktion lis(&selber, schlüssel: Zeichecheti) -> Vilicht<&Zeichecheti>;
     }
 
-    statisch veränderbar DICTIONNAIRE: <Dico<Zeichecheti, Zeichecheti>> = Nüt;
+    statisch veränderbar DICTIONÄR: <Dico<Zeichecheti, Zeichecheti>> = Nüt;
 
     struktur Konkret;
 
