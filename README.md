@@ -70,7 +70,7 @@ Please don't introduce swear words.
 - German: [rost](https://github.com/michidk/rost)
 - Polish: [rdza](https://github.com/phaux/rdza)
 - Italian: [ruggine](https://github.com/DamianX/ruggine)
-- Russian: [ржавчина](https://github.com/FluxIndustries/rzhavchina)
+- Russian: [ржавчина](https://github.com/Sanceilaks/rzhavchina)
 - Esperanto: [rustteksto](https://github.com/dscottboggs/rustteksto)
 - Hindi: [zung](https://github.com/rishit-khandelwal/zung)
 - Hungarian: [rozsda](https://github.com/jozsefsallai/rozsda)
