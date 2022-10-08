@@ -41,7 +41,7 @@ roeschti::roeschti! {
             dico.infüege(schlüssel, wärt);
         }
         funktion lis(&selber, schlüssel: Zeichecheti) -> Resultat<Vilicht<&Zeichecheti>, Zeichecheti> {
-            falls lahn Espaar(dico) = unsicher { DICTIONNAIRE.as_referenz() } {
+            falls lahn Espaar(dico) = unsicher { DICTIONÄR.as_referenz() } {
                 Oke(dico.lis(&schlüssel))
             } susch {
                 Fähl("Usem dico usehole".in())
