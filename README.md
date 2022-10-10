@@ -22,7 +22,7 @@ If you want to pay someone for this, pay the french guy. I only adapted his work
 
 ```rust
 roeschti::roeschti! {
-    bruch std::collections::Dictionär als Dico;
+    bruch standard::sammligä::Dictionär als Dico;
 
     eigeschaft schlüsselwärt {
         funktion schrib(&selber, schlüssel: Zeichecheti, wärt: Zeichecheti);
